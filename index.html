@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <header>
+      <h1>Memory Game</h1>
+      <div class="scorekeeper">
+        <div class="score">
+          <h4>Score:</h4>
+          <span id="scoreNum">0</span>
+        </div>
+        <div class="highscore">
+          <h4>time:</h4>
+          <span id="time">0</span>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <section class="memory-game">
+        <div class="memory-card" data-framework="cookie">
+          <span class="front-face"><i class="bx bxs-cookie"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="cookie">
+          <span class="front-face"><i class="bx bxs-cookie"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="meteor">
+          <span class="front-face"><i class="bx bx-meteor"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="meteor">
+          <span class="front-face"><i class="bx bx-meteor"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="coin">
+          <span class="front-face"><i class="bx bx-coin"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="coin">
+          <span class="front-face"><i class="bx bx-coin"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="florist">
+          <span class="front-face"><i class="bx bxs-florist"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="florist">
+          <span class="front-face"><i class="bx bxs-florist"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="bomb">
+          <span class="front-face"><i class="bx bxs-bomb"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="bomb">
+          <span class="front-face"><i class="bx bxs-bomb"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="rocket">
+          <span class="front-face"><i class="bx bx-rocket"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+        <div class="memory-card" data-framework="rocket">
+          <span class="front-face"><i class="bx bx-rocket"></i></span>
+          <span class="back-face"><i class="bx bxs-diamond"></i></span>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
